@@ -17,7 +17,7 @@ problem=createOptimProblem('fmincon','x0',x0,'objective',@Mutual_Information_Com
 
 %Final output
 
-%Hard coded
+%Hard coded since there are only two images
 A=imread('Data\Face1.jpg'); %Reference Image
 B=imread('Data\Face1_Rotate_15_X250_Y-24.jpg'); %Moving Image
 

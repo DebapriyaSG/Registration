@@ -5,7 +5,7 @@
 
 function[MI_n2]=Mutual_Information_Computation(x)
 
-%Hard coded
+%Hard coded since there are only two images
 A=imread('Data\Face1.jpg'); %Reference Image
 B=imread('Data\Face1_Rotate_15_X250_Y-24.jpg'); %Moving Image
 
